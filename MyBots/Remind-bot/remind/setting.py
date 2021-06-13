@@ -1,0 +1,19 @@
+# -*- coding: utf-8 -*-
+"""爬虫配置文件"""
+import os
+
+# MYSQL
+MYSQL_IP = "193.123.253.216"  # 远程:193.123.253.216    本地: 127.0.0.1
+MYSQL_PORT = 3306
+MYSQL_DB = "feapder"
+MYSQL_USER_NAME = "feapder"
+MYSQL_USER_PASS = "feapder"
+
+# REDIS
+# IP:PORT
+REDISDB_IP_PORTS = "193.123.253.216:6379"  # 远程: 193.123.253.216   本地: 127.0.0.1
+REDISDB_USER_PASS = "gsZaoXf20Dz3oxTcmkiEZxETeY2NBsYW9dOlTK+OKO+K4994nZWl3mtL0PP91LNnGO70RcMdAJ6DMy28"
+# 默认 0 到 15 共16个数据库
+REDISDB_DB = 1
+
+TOKEN = ""
